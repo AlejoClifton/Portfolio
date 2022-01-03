@@ -1,0 +1,44 @@
+@import '../../../global/colors.scss';
+@import '../../../global/mixins.scss';
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.AboutMeContainer {
+    @extend %backgroundClaro;
+    width: 75%;
+    margin: 0 auto;
+    div {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 30px 30px 10px 30px;
+        }
+        .strong {
+            color: $boton;
+            font-size: 1.1rem;
+        }
+        .aboutMeButton {
+            width: 30%;
+            margin: 0 auto;
+            border: none;
+            background: $boton;
+            border-radius: 1em;
+            font-size: 1.2em;
+            &:hover {
+                background-color: $textoSecundario;
+            }
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            color: $texto;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+    }
+}
