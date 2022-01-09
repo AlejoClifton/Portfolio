@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getCategories } from '../../items/items';
 import ListNavBar from './listNavBar/ListNavBar';
-import './navBar.scss';
+
+import '../../../global/animations.scss';
+import { DivHeader } from '../../styleComponents/Divs';
 
 const NavBar = () => {
     const [listCategories, setListCategories] = useState([]);
@@ -17,9 +19,9 @@ const NavBar = () => {
     }, []);
 
     return (
-        <div className="navBar">
+        <DivHeader>
             <ListNavBar listCategory={listCategories} />
-        </div>
+        </DivHeader>
     );
 };
 

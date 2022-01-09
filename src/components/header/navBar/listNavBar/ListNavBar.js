@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import NavBarCategory from './NavBarCategory';
 
+import { Ul } from '../../../styleComponents/Uls';
+import { Icon } from '../../../styleComponents/Icons';
+
 const ListNavBar = ({ listCategory }) => {
     const [estado, setEstado] = useState(false);
-    const [clase, setClase] = useState('navContainer');
+    const [clase, setClase] = useState('');
+    const [nav, setNav] = useState('');
     const menuButton = () => {
         if (!estado) {
-            setClase('navContainer scale-up-ver-top displayNav');
+            setClase('scale-up-ver-top');
+            setNav('nav');
             setEstado(true);
         } else {
-            setClase('navContainer ');
+            setClase('');
+            setNav('');
             setEstado(false);
         }
     };
@@ -19,12 +25,16 @@ const ListNavBar = ({ listCategory }) => {
             <h1>
                 <a href="/">Alejo Clifton</a>
             </h1>
-            <ul className={clase}>
+            <Ul className={clase} nav={nav}>
                 {listCategory.map((category) => {
-                    return <NavBarCategory key={category.id} category={category} />;
+                    return <NavBarCategory lista="" key={category.id} category={category} />;
                 })}
-            </ul>
-            <i onClick={menuButton} className="fas fa-bars buttonMenu"></i>
+            </Ul>
+            <Icon onClick={menuButton} className="fas fa-bars buttonMenu"></Icon>
+
+            {/* <a href="/curriculum/CV_Alejo_Tomás_Clifton_Goldney.pdf" className="aboutMeButton">
+                CV
+            </a> */}
         </>
     );
 };

@@ -1,15 +1,16 @@
 import React from 'react';
 import AboutMe from './aboutMe/AboutMe';
 
-import './aboutMeContainer.scss';
+import { TitlePrimary } from '../../styleComponents/Title';
+import { Div } from '../../styleComponents/Divs';
 
 const AboutMeContainer = () => {
     return (
         <div>
-            <h1 className="title">Sobre Mí</h1>
-            <div className="AboutMeContainer">
+            <TitlePrimary>Sobre Mí</TitlePrimary>
+            <Div>
                 <AboutMe />
-            </div>
+            </Div>
         </div>
     );
 };

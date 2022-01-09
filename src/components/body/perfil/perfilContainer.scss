@@ -1,9 +1,12 @@
 @import '../../../global/colors.scss';
 
 .perfilContainer {
-    margin: -1px;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
     padding: 0;
-    background-color: $FondoOscuro;
+    background-image: url('../../../../public/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-bottom: 30px;
     div {
         padding-top: 30px;
