@@ -1,0 +1,6 @@
+@import './general.scss';
+.app {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}

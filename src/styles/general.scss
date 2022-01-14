@@ -1,0 +1,71 @@
+@import './colors.scss';
+
+.title {
+    font-size: 3em;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    margin: 2em 0 0 1em;
+    filter: drop-shadow(0px 2px 5px $ColorRojoTranqui);
+}
+
+.title2 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 2em 0 1em 0px;
+    filter: drop-shadow(0px 2px 5px $ColorRojoTranqui);
+}
+.title3 {
+    font-size: 1.3em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 2em 0 1em 0px;
+    filter: drop-shadow(0px 2px 5px $ColorRojoTranqui);
+}
+
+.title4 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2em 0 1em 0px;
+    filter: drop-shadow(0px 2px 5px $ColorRojoTranqui);
+    a {
+        font-size: 1.5em;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: $ColorRojoTranqui;
+        }
+    }
+}
+
+.buttonRedirect {
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: $button;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    &:hover {
+        background-color: $ColorRojoIntenso;
+    }
+}
+
+.see {
+    font-size: 1.5em;
+    margin-bottom: 3em;
+}
+
+.cv {
+    display: inline-block;
+}
+
+.alejo{
+    text-align: center;
+}

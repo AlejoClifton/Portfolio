@@ -1,0 +1,67 @@
+@import '../../styles/colors.scss';
+
+.projects {
+    padding: 1rem;
+    .seeMore {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    grid-column: 2/13;
+    grid-row: 4/4;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-Unit {
+    background-color: $Fondo-Oscuro;
+    box-shadow: 0 0.5rem 1rem $ColorRojoIntenso;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        color: $ColorRojoTranqui;
+        font-weight: bold;
+        margin: 2em 0 1.5em 1em;
+    }
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+    em {
+        font-size: 1em;
+        color: $ColorRojoTranqui;
+        font-style: italic;
+        margin: 0.5em 0 0 1em;
+    }
+    figcaption {
+        font-size: 1.2em;
+        color: white;
+        font-style: italic;
+        margin: 0.5em 0 0 1em;
+    }
+    p {
+        font-size: 1em;
+        color: white;
+        margin: 0.5em 0 0 1em;
+    }
+    li {
+        font-size: 1em;
+        color: $ColorRojoTranqui;
+        margin: 0.5em 0 0 1em;
+        &::marker {
+            color: white;
+        }
+    }
+}
+
+.divRedirect {
+    width: 100%;
+    display: flex;
+}

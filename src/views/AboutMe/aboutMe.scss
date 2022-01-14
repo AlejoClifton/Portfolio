@@ -1,0 +1,62 @@
+@import '../../styles/colors.scss';
+
+.aboutMe {
+    max-width: 100%;
+    padding: 1rem;
+    grid-column: 2/13;
+    grid-row: 2/2;
+}
+
+.aboutMeDescription {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    img {
+        width: 50%;
+    }
+    div {
+        color: white;
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .strong {
+            font-weight: bold;
+            color: $ColorRojoTranqui;
+        }
+
+        h2.aboutme {
+            text-align: left;
+        }
+        ul {
+            li {
+                font-size: 1em;
+                color: $ColorRojoTranqui;
+                margin: 0.5em 0 0 1em;
+                &::marker {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.gridAboutMe {
+    display: grid;
+    border: 1px solid $ColorRojoTranqui;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    .textoAboutMe {
+        margin: auto auto auto 100px;
+        text-align: left;
+        font-size: 1em;
+        color: white;
+    }
+    span {
+        color: $ColorRojoTranqui;
+        font-size: 1.3em;
+    }
+}

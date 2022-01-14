@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Perfil",
+        "buscador": "perfil"
+    },
+    {
+        "id": 2,
+        "name": "Sobre Mí",
+        "buscador": "aboutMe"
+    },
+    {
+        "id": 3,
+        "name": "Tecnologías",
+        "buscador": "Technologies"
+    },
+    {
+        "id": 4,
+        "name": "Proyectos",
+        "buscador": "Projects"
+    },
+    {
+        "id": 5,
+        "name": "Contacto",
+        "buscador": "Contact"
+    }
+]
