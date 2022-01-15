@@ -70,7 +70,14 @@
 }
 
 @media screen and (min-width: 992px) {
+    .title {
+        text-align: left;
+        margin: 2em 0 0 1em;
+    }
     .title2 {
         font-size: 2em;
+    }
+    .alejo {
+        text-align: center;
     }
 }
