@@ -1,6 +1,14 @@
 @import './general.scss';
+@import './animations.scss';
+
 .app {
     display: grid;
     max-width: 100%;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (min-width: 992px) {
+    .app {
+        grid-template-columns: repeat(12, 1fr);
+    }
 }

@@ -3,7 +3,8 @@
 .perfil {
     background-image: url('../../../public/assets/img/fondo.jpg');
     padding: 1rem;
-    grid-column: 2/13;
+    grid-column: 1/4;
+    grid-row: 2/2;
 }
 
 .perfilAlejo {
@@ -36,5 +37,12 @@
     }
     div {
         display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .perfil {
+        grid-column: 1/13;
+        grid-row: 1/1;
     }
 }

@@ -3,26 +3,24 @@
 .technologies {
     background-color: #1e2131;
     padding: 1rem;
-    grid-column: 2/13;
-    grid-row: 3/3;
+    grid-column: 1/4;
+    grid-row: 4/4;
 }
 
 .container-Grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     grid-gap: 1rem;
     margin: 1rem 0;
 }
 
 .tech {
-    height: 700px;
     ul {
-        height: 380px;
         justify-content: space-evenly;
         border-radius: 1em;
         background-color: $Fondo;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         list-style: none;
         padding: 1em;
         margin: 0;
@@ -46,12 +44,38 @@
                 text-align: center;
             }
             img {
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
                 object-fit: contain;
             }
         }
     }
 
     font-size: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .technologies {
+        grid-column: 2/13;
+        grid-row: 3/3;
+    }
+
+    .container-Grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tech {
+        height: 700px;
+        ul {
+            height: 380px;
+            flex-direction: column;
+            li {
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
 }

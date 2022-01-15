@@ -1,27 +1,28 @@
 @import '../../styles/colors.scss';
 
 .navBar {
+    width: 100%;
     display: absolute;
-    position: fixed;
-    height: 100%;
-    width: 123px;
-    justify-content: space-between;
-    align-items: center;
     background-color: $Fondo-Oscuro;
-    padding: 1rem;
+    grid-column: 1/4;
+    grid-row: 1/1;
     z-index: 1;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    h1 {
+        max-width: 100%;
+        font-size: 1.5rem;
+    }
     ul {
-        height: 100%;
-        display: flex;
+        max-width: 100%;
+        display: none;
         flex-direction: column;
         align-items: center;
         padding: 0;
+        justify-content: space-evenly;
         li {
             list-style: none;
             a {
@@ -36,6 +37,37 @@
                     color: $ColorRojoTranqui;
                 }
             }
+        }
+    }
+    .public {
+        display: flex;
+    }
+    i {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        padding: 0.5em;
+        &:hover {
+            color: $ColorRojoTranqui;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navBar {
+        position: fixed;
+        height: 100%;
+        width: 123px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .aside {
+        align-items: center;
+        ul {
+            height: 100%;
+            display: flex;
         }
     }
 }

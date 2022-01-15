@@ -8,13 +8,13 @@
         flex-direction: column;
         justify-content: center;
     }
-    grid-column: 2/13;
-    grid-row: 4/4;
+    grid-column: 1/4;
+    grid-row: 5/5;
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
 }
 
 .project-Unit {
@@ -64,4 +64,15 @@
 .divRedirect {
     width: 100%;
     display: flex;
+}
+
+@media screen and (min-width: 992px) {
+    .projects {
+        grid-column: 2/13;
+        grid-row: 4/4;
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
