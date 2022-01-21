@@ -9,7 +9,7 @@ const Others = () => {
                     <i className="fab fa-git-alt"></i>
                 </li>
                 <li>
-                    <img src="assets/img/firebase.png"></img>
+                    <img src="assets/img/firebase.png" alt="Firebase"></img>
                 </li>
             </ul>
         </div>

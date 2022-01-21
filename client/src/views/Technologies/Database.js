@@ -6,16 +6,16 @@ const Database = () => {
             <h3 className="title3">Bases de Datos</h3>
             <ul>
                 <li>
-                    <img src="assets/img/mongodb.png"></img>
+                    <img src="assets/img/mongodb.png" alt="MongoDB"></img>
                 </li>
                 <li>
-                    <img src="assets/img/sqlserver.png"></img>
+                    <img src="assets/img/sqlserver.png" alt="SQL Server"></img>
                 </li>
                 <li>
-                    <img src="assets/img/postgresql.png"></img>
+                    <img src="assets/img/postgresql.png" alt="PostgreSQL Server"></img>
                 </li>
                 <li>
-                    <img src="assets/img/mysql.png"></img>
+                    <img src="assets/img/mysql.png" alt="MySQL Server"></img>
                 </li>
             </ul>
         </div>

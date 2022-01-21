@@ -4,7 +4,7 @@ const CoderHouse = () => {
     return (
         <div className="project-Unit">
             <h2 title="title">Proyecto CoderHouse</h2>
-            <img src="assets/img/proyectoCoderHouse.png"></img>
+            <img src="assets/img/proyectoCoderHouse.png" alt="Proyecto CoderHouse"></img>
             <figcaption>
                 <em>CoderHouse</em> Proyecto Realizado en CoderHouse.
             </figcaption>
