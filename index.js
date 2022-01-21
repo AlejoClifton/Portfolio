@@ -25,16 +25,16 @@ app.post('/api/form', (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: 'cliftonalejo@gmail.com',
-                pass: 'yypyxacbfftozmji',
+                user: process.env.EMAIL,
+                pass: process.env.PASS,
             },
         });
 
         let mailOptions = {
             from: req.body.email,
-            to: 'cliftonalejo@gmail.com',
+            to: process.env.EMAIL,
             subject: 'enviado desde Portfolio',
-            replyTo: 'cliftonalejo@gmail.com',
+            replyTo: process.env.EMAIL,
             text: req.body.mensaje,
             html: htmlEmail,
         };
