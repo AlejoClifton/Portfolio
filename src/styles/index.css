@@ -23,5 +23,14 @@ body {
 
 main{
     max-width: 56rem;
+    width: 85%;
     margin: 0 auto;
+}
+
+
+@media (width > 48rem) {
+    main{
+        max-width: 56rem;
+        width: 100%;
+    }
 }

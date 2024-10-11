@@ -4,8 +4,8 @@
 
 .svg {
     color: var(--primary-color);
-    height: 1.875rem;
-    width: 1.875rem;
+    height: 30px;
+    width: 30px;
 }
 
 .containLinks {

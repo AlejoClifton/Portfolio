@@ -1,8 +1,9 @@
 .containSubtitle {
+    align-items: center;
     display: flex;
     flex-direction: row;
     gap: .625rem;
-    padding: 100px 0 40px 0;
+    padding: 8.75rem 0 2.5rem 0;
 }
 
 .svg,
@@ -11,11 +12,28 @@
 }
 
 .svg {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 1.875rem;
+    width: 1.875rem;
 }
 
 .subtitle {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     font-weight: 600;
+}
+
+@media (width >= 48rem) {
+    .subtitle {
+        font-size: 1.875rem;
+    }
+    .svg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .containSubtitle {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: .625rem;
+        padding: 6.25rem 0 2.5rem 0;
+    }
 }

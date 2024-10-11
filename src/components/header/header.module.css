@@ -1,20 +1,28 @@
 .containHeader {
-    background: rgb(33,44,109);
+    background: rgb(33, 44, 109);
     border-radius: 1.25rem;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
     left: 50%;
     margin: 1.875rem 0;
-    padding: .625rem 1.25rem;
+    padding: 0.625rem 1.25rem;
     position: fixed;
     top: 0;
     transform: translateX(-50%);
     z-index: 1000;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 90%;
+}
+
+@media (width >= 48rem) {
+    .containHeader {
+        width: unset;
+    }
 }
 
 .listHeader {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1.25rem;
 }
 

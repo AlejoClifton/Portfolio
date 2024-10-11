@@ -28,8 +28,8 @@
 
 .time {
     color: #c3c3c3;
-    font-size: .8125rem;
-    margin-top: .3125rem;
+    font-size: 0.8125rem;
+    margin-top: 0.3125rem;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@
 
 .txtTitle {
     color: var(--secondary-color);
-    margin: 10px 0;
+    margin: .625rem 0;
 }
 
 .txtLi {

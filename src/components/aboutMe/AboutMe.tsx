@@ -6,9 +6,12 @@ import { AboutMeSvg } from '@/assets/SvgContainer';
 
 const AboutMe = () => {
     return (
-        <section id='aboutme'>
+        <section id="aboutme">
             <Subtitle text="Sobre Mí" Svg={AboutMeSvg} />
-            <div className={`dFlexRow faCenter fjStart fWrap`}>
+            <div className={`${style.containAboutme}`}>
+                <div className={style.containImage}>
+                    <Image src={'/sobremi.png'} alt={'Alejo Clifton Sobre mí'} className={style.image} width={255} height={400} priority />
+                </div>
                 <div className={style.description}>
                     <p className={style.text}>
                         ¡Hola! Me llamo <span className="trem">Alejo Tomás Clifton Goldney</span>, tengo 24 años y soy un apasionado de la
@@ -32,9 +35,6 @@ const AboutMe = () => {
                         Mi objetivo es seguir creciendo en este campo, asumir nuevos desafíos y, por supuesto,{' '}
                         <span className="trem">disfrutar cada paso del camino</span>.
                     </p>
-                </div>
-                <div className={style.containImage}>
-                    <Image src={'/sobremi.png'} alt={'Alejo Clifton Sobre mí'} className={style.image} width={255} height={400} priority />
                 </div>
             </div>
         </section>
