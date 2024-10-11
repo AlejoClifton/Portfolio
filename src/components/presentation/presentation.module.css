@@ -1,3 +1,7 @@
+.containPresentation{
+    padding-top: 6.25rem;
+}
+
 .title,
 .subtitle {
     color: var(--primary-color);

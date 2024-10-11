@@ -1,9 +1,9 @@
-.containTechnologies{
+.containTechnologies {
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: .625rem;
+    gap: 0.625rem;
     justify-content: flex-start;
 }
 
@@ -16,15 +16,17 @@
 .txtSvg {
     color: white;
     font-size: 0.75rem;
+    font-weight: 500;
 }
 
-.astrojs svg,
-.nodejs svg,
-.mysql svg {
+.svg {
     color: white;
+    height: 0.9375rem;
+    width: 0.9375rem;
 }
 
-.expressjs .txtSvg {
+.expressjs .txtSvg,
+.figma .txtSvg {
     color: #3f3f3f;
 }
 
@@ -55,4 +57,33 @@
 
 .mysql {
     background-color: #01618a;
+}
+
+.reactjs,
+.reactnative {
+    background-color: #61dafb;
+}
+
+.git {
+    background-color: #de4b36;
+}
+
+.javaspringboot {
+    background-color: #72b545;
+}
+
+.visualcode {
+    background-color: #4180b9;
+}
+
+.wordpress {
+    background-color: #207195;
+}
+
+.figma {
+    background-color: #f4f2ed;
+}
+
+.jest {
+    background-color: #99424f;
 }

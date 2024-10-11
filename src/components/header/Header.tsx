@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import style from './header.module.css';
 
 const listHeader = [
     {
@@ -31,12 +32,12 @@ const listHeader = [
 
 const Header = () => {
     return (
-        <header>
-            <ul>
+        <header className={style.containHeader}>
+            <ul className={`${style.listHeader}`}>
                 {listHeader.map((item) => {
                     return (
                         <li key={item.id}>
-                            <Link href={item.url}>{item.name}</Link>
+                            <Link href={item.url} className={style.link}>{item.name}</Link>
                         </li>
                     );
                 })}

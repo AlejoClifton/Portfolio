@@ -9,7 +9,7 @@ import { projects } from './projects';
 
 const Freelancer = () => {
     return (
-        <div>
+        <section id='projects'>
             <Subtitle text="Proyectos Freelancer" Svg={ProjectSvg} />
             <div>
                 {projects.map((project, index) => (
@@ -29,7 +29,7 @@ const Freelancer = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,0 +1,60 @@
+.containExperience {
+    border-left: 1px solid #d9d9d93e;
+    padding-left: 2.5rem;
+}
+
+.punto {
+    color: var(--secondary-color);
+    font-size: 3rem;
+    left: -3rem;
+    position: absolute;
+    top: 0;
+}
+
+.containProject {
+    margin-bottom: 3.125rem;
+}
+
+.company,
+.job {
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.job {
+    color: var(--tertiary-color);
+}
+
+.time {
+    color: #c3c3c3;
+    font-size: .8125rem;
+    margin-top: .3125rem;
+    width: 100%;
+}
+
+.company,
+.txtLi,
+.titleTech {
+    color: var(--primary-color);
+}
+
+.containDescription {
+    margin: 1.25rem 0;
+}
+
+.txtTitle {
+    color: var(--secondary-color);
+    margin: 10px 0;
+}
+
+.txtLi {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
+
+.titleTech {
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}

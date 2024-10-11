@@ -1,0 +1,8 @@
+.text {
+    margin: 1.25rem 0;
+    color: var(--primary-color);
+}
+
+.description {
+    width: 70%;
+}

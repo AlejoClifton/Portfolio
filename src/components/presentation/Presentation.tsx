@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Presentation = () => {
     return (
-        <section className={'dFlexRowDefault fWrap'}>
+        <section id='presentation' className={`${style.containPresentation} dFlexRowDefault fWrap`}>
             <div className={style.containTitle}>
                 <h1 className={style.title}>Alejo Tomás Clifton Goldney</h1>
                 <h2 className={style.subtitle}>
