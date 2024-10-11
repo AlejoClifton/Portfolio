@@ -55,8 +55,8 @@
 
 @media (width > 48rem) {
     .image {
-        width: unset;
-        height: unset;
+        width: 25rem;
+        height: 100%;
     }
 
     .containTexts {
