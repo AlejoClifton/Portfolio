@@ -16,20 +16,19 @@
 
 body {
     font-family: 'Onest', Arial, Helvetica, sans-serif;
-    background: rgb(33,44,109);
-    background: linear-gradient(90deg, rgba(33,44,109,1) 0%, rgba(25,35,95,1) 100%);
+    background: rgb(25, 35, 95);
+    background: linear-gradient(90deg, rgba(25, 35, 95, 1) 0%, rgba(33, 44, 109, 1) 50%, rgba(25, 35, 95, 1) 100%);
     scroll-behavior: smooth;
 }
 
-main{
+main {
     max-width: 56rem;
     width: 85%;
     margin: 0 auto;
 }
 
-
 @media (width > 48rem) {
-    main{
+    main {
         max-width: 56rem;
         width: 100%;
     }
