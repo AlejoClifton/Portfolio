@@ -1,0 +1,26 @@
+.dGridGroupLarge,
+.dGridGroupSmall,
+.dGridGroupMedium,
+.dGridGroupThree {
+    align-items: flex-start;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.gGap {
+    grid-gap: 2rem;
+}
+
+.dGridGroupSmall {
+    grid-template-columns: repeat(auto-fill, minmax(9.375rem, 1fr));
+}
+
+.dGridGroupMedium {
+    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+}
+
+.dGridGroupThree {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}

@@ -1,0 +1,58 @@
+.containTechnologies{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .625rem;
+    justify-content: flex-start;
+}
+
+.svgContain {
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.625rem;
+    user-select: none;
+}
+
+.txtSvg {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.astrojs svg,
+.nodejs svg,
+.mysql svg {
+    color: white;
+}
+
+.expressjs .txtSvg {
+    color: #3f3f3f;
+}
+
+/* Colores */
+.nextjs {
+    background-color: #000000;
+}
+
+.css {
+    background-color: #0277bd;
+}
+
+.astrojs {
+    background-color: #ff5a02;
+}
+
+.scss {
+    background-color: #cc6699;
+}
+
+.nodejs {
+    background-color: #549e44;
+}
+
+.expressjs {
+    background-color: #f4f2ed;
+}
+
+.mysql {
+    background-color: #01618a;
+}

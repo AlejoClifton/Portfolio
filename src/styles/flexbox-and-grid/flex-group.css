@@ -1,0 +1,79 @@
+.dFlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.dFlexRowDefault {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.dFlexColumnDefault {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fjStart {
+    justify-content: flex-start;
+}
+
+.fjCenter {
+    justify-content: center;
+}
+
+.fjEnd {
+    justify-content: flex-end;
+}
+
+.fjSpaceBetween {
+    justify-content: space-between;
+}
+
+.fjSpaceAround {
+    justify-content: space-around;
+}
+
+.fjSpaceEvenly {
+    justify-content: space-evenly;
+}
+
+.faStretch {
+    align-items: stretch;
+}
+
+.faStart {
+    align-items: flex-start;
+}
+
+.faCenter {
+    align-items: center;
+}
+
+.faEnd {
+    align-items: flex-end;
+}
+
+.fWrap {
+    flex-wrap: wrap;
+}
+
+.fNoWrap {
+    flex-wrap: nowrap;
+}
+
+.fGap {
+    gap: .3125rem;
+}
+
+.fGap-10{
+    gap: .625rem;
+}

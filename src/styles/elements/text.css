@@ -1,0 +1,13 @@
+.trem,
+.tremb {
+    color: var(--secondary-color);
+}
+
+.trem {
+    font-weight: 500;
+}
+
+.tremb {
+    font-weight: bold;
+    margin-left: 0.3125rem;
+}

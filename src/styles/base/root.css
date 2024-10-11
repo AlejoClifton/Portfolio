@@ -1,0 +1,10 @@
+:root {
+    /** Colores de texto **/
+    --primary-color: white;
+    --secondary-color: #ff808b;
+    --tertiary-color: #f52d6e;
+
+    /** Colores de los backgrounds **/
+    --bg-01-color: #f52d6cc1;
+    --bg-01-color-hover: color-mix(in srgb, var(--bg-01-color), black 10%);
+}

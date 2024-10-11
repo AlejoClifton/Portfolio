@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/* Resetea animations en modo reducido de movimiento */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        -webkit-animation: none !important;
+        animation: none !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+    }
+}
+
+/* Resetea margin, padding y box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* Estilos para imágenes, videos y otros elementos */
+img,
+picture,
+video,
+iframe,
+figure {
+    /* max-width: 100%;
+    width: 100%; */
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+/* Estilos para enlaces */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p a {
+    display: inline;
+}
+
+/* Quita los puntos de las listas */
+li {
+    list-style-type: none;
+}
+
+/* Configura anclas suaves */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Desactiva estilos por defecto en etiquetas de texto */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: 1em;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-weight: inherit;
+}
+
+/* Evita problemas con los pseudoelementos de quotes */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* Configura el texto seleccionado */
+/* ::-moz-selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+} */
+
+/* Nivela problemas de tipografía y formularios */
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+    outline: none;
+}
+
+/* Resetea las tablas */
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Evita problemas con SVG */
+svg {
+    width: 100%;
+    display: block;
+}
+
+/* Configura la tipografía para toda la web */
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    width: 100%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}

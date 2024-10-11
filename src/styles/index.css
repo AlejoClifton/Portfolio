@@ -1,0 +1,26 @@
+@import '@style/base/root.css';
+@import '@style/base/reset.css';
+
+@import '@style/elements/text.css';
+@import '@style/elements/elements.css';
+@import '@style/elements/roundeds.css';
+
+@import '@style/flexbox-and-grid/flex-group.css';
+@import '@style/flexbox-and-grid/grid-group.css';
+@import '@style/flexbox-and-grid/position-group.css';
+
+@import '@style/sizing-and-spacing/_margins.css';
+@import '@style/sizing-and-spacing/_paddings.css';
+
+@import '@style/layout/layout.css';
+
+body {
+    font-family: 'Onest', Arial, Helvetica, sans-serif;
+    background: rgb(33,44,109);
+    background: linear-gradient(90deg, rgba(33,44,109,1) 0%, rgba(25,35,95,1) 100%);
+}
+
+main{
+    max-width: 56rem;
+    margin: 0 auto;
+}

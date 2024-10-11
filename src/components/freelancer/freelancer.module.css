@@ -1,0 +1,44 @@
+.containProject {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+    justify-content: flex-start;
+    margin: 1.875rem 0;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+}
+
+.containTexts {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    height: 12.5rem;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.image {
+    border-radius: 1.875rem;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.txt {
+    color: #e8e8e8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0.625rem 0;
+}
+
+.svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}

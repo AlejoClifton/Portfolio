@@ -1,0 +1,11 @@
+.wrapperGeneric {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media screen and (width >= 85.375rem) {
+    .wrapperGeneric {
+        max-width: 75rem;
+        width: 100%;
+    }
+}

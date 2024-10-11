@@ -1,0 +1,32 @@
+.title,
+.subtitle {
+    color: var(--primary-color);
+}
+
+.title {
+    font-size: 2.875rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 1.5625rem 0;
+    max-width: 35.25rem;
+}
+
+.containPresentation {
+    display: flex;
+}
+
+.image {
+    border-radius: 6.25rem;
+}
+
+.containTitle {
+    width: 70%;
+}
+
+.containImage {
+    width: 30%;
+}

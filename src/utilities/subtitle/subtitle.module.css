@@ -1,0 +1,21 @@
+.containSubtitle {
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+    margin: 100px 0 40px 0;
+}
+
+.svg,
+.subtitle {
+    color: var(--primary-color);
+}
+
+.svg {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.875rem;
+    font-weight: 600;
+}
