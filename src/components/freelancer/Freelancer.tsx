@@ -22,7 +22,7 @@ const Freelancer = () => {
                             <h3 className={style.titleDesktop}>{project.title}</h3>
                             <TechnologyIcons technologies={project.technologies} />
                             <p className={style.txt}>{project.text}</p>
-                            <LinkButton url={project.link} type="_blank">
+                            <LinkButton url={project.link} type="_blank" ariaLabel={project.title} >
                                 <LinkSvg className={style.svg} />
                                 <p>Ver Proyecto</p>
                             </LinkButton>

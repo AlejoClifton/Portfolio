@@ -45,12 +45,18 @@
 
 .txtTitle {
     color: var(--secondary-color);
-    margin: .625rem 0;
+    margin: 0.625rem 0;
 }
 
 .txtLi {
-    list-style-type: disc;
     margin-left: 1.25rem;
+
+    &::before {
+        content: '•';
+        margin-right: 0.5rem;
+        color: #ffffff;
+        font-size: 1rem;
+    }
 }
 
 .titleTech {

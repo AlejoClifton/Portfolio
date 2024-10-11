@@ -16,7 +16,7 @@ const Experience = () => {
                         <h3 className={style.job}>{exp.job}</h3>
                         <h3 className={style.company}>{exp.company}</h3>
                         <p className={style.time}>{exp.time}</p>
-                        <ul className={style.containDescription}>
+                        <div className={style.containDescription}>
                             {exp.paragraph.map((txt) => {
                                 if (txt.type === 'title') {
                                     return (
@@ -26,12 +26,12 @@ const Experience = () => {
                                     );
                                 }
                                 return (
-                                    <li key={txt.id} className={style.txtLi}>
+                                    <p key={txt.id} className={style.txtLi}>
                                         {txt.text}
-                                    </li>
+                                    </p>
                                 );
                             })}
-                        </ul>
+                        </div>
                         <div className={style.containTechnologies}>
                             <h4 className={style.titleTech}>Herramientas/Tecnologías:</h4>
                             <TechnologyIcons technologies={exp.technologies} />

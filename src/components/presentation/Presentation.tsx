@@ -14,7 +14,7 @@ const Presentation = () => {
                     Programación de Buenos Aires, Argentina. Especializado en páginas y aplicaciones web.
                 </h2>
                 <div className={style.containButton}>
-                    <LinkButton url="#contact">Contáctame</LinkButton>
+                    <LinkButton url="#contact" ariaLabel='contacto'>Contáctame</LinkButton>
                 </div>
             </div>
             <div className={style.containImage}>
