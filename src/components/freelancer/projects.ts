@@ -4,7 +4,7 @@ export const projects = [
         title: 'Portal Clientes',
         technologies: ['next.js', 'css'],
         text: 'Es una página web de clientes, donde compran insumos del proveedor.',
-        link: 'https://portalclientes.alejoclifton.com/',
+        link: 'https://portalclientescortestamp.com.ar/',
         active: true,
     },
     {
