@@ -20,7 +20,7 @@ const AboutMe = () => {
                         ese momento nació mi curiosidad por este mundo increíble.
                     </p>
                     <p className={style.text}>
-                        Llevo más de <span className="trem">8 años reparando computadoras</span>, lo que me dio una base sólida para
+                        Llevo más de <span className="trem">9 años reparando computadoras</span>, lo que me dio una base sólida para
                         entender cómo funcionan a nivel técnico. Hace unos <span className="trem">4 años descubrí la programación</span> y,
                         desde entonces, no he parado de aprender y perfeccionar mis habilidades. Me encanta explorar nuevas tecnologías,
                         buscar siempre formas de mejorar, y estar al día con las tendencias del desarrollo.
