@@ -10,7 +10,7 @@ const AboutMe = () => {
             <Subtitle text="Sobre Mí" Svg={AboutMeSvg} />
             <div className={`${style.containAboutme}`}>
                 <div className={style.containImage}>
-                    <Image src={'/sobremi.png'} alt={'Alejo Clifton Sobre mí'} className={style.image} width={255} height={400} priority />
+                    <Image src={'/alejosobremi.png'} alt={'Alejo Clifton Sobre mí'} className={style.image} width={255} height={400} priority />
                 </div>
                 <div className={style.description}>
                     <p className={style.text}>
