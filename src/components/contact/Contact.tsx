@@ -9,7 +9,7 @@ const Contact = () => {
         <section id="contact" className={style.containContact}>
             <Subtitle text="Medios de contacto" Svg={ContactSvg} />
             <div className={style.containLinks}>
-                <LinkButton url={`https://wa.me/541123871729`} type="_blank" ariaLabel="Whatsapp">
+                <LinkButton url={`https://wa.me/541170627863`} type="_blank" ariaLabel="Whatsapp">
                     <WspSvg className={style.svg} />
                 </LinkButton>
                 <LinkButton url={`mailto:contacto@alejoclifton.com`} type="_blank" ariaLabel="Email">
