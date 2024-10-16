@@ -18,7 +18,7 @@ const Presentation = () => {
                 </div>
             </div>
             <div className={style.containImage}>
-                <Image src={'/alejo.png'} alt="Alejo Clifton" className={style.image} width={260} height={300} priority />
+                <Image src={'/alejo.webp'} alt="Alejo Clifton" className={style.image} width={260} height={300} priority />
             </div>
         </section>
     );

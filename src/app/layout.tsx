@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         siteName: 'Portfolio de Alejo',
         images: [
             {
-                url: '/alejo.png',
+                url: '/alejo.webp',
                 width: 200,
                 height: 400,
                 alt: 'Portfolio de Alejo',

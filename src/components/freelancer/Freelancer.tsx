@@ -16,7 +16,7 @@ const Freelancer = () => {
                     <div key={index} className={`${style.containProject} dFlexRowDefault fWrap`}>
                         <div className={style.containImage}>
                         <h3 className={style.titleMobile}>{project.title}</h3>
-                            <Image src={project.image} alt={project.image} className={style.image} width={400} height={200} priority />
+                            <Image src={project.image} alt={project.image} className={style.image} width={400} height={191} priority />
                         </div>
                         <div className={style.containTexts}>
                             <h3 className={style.titleDesktop}>{project.title}</h3>

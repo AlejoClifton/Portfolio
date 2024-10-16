@@ -1,6 +1,6 @@
 export const projects = [
     {
-        image: '/projects/portalclientes.png',
+        image: '/projects/portalclientes.webp',
         title: 'Portal Clientes',
         technologies: ['next.js', 'css'],
         text: 'Es una página web de clientes, donde compran insumos del proveedor.',
@@ -8,7 +8,7 @@ export const projects = [
         active: true,
     },
     {
-        image: '/projects/rackup.png',
+        image: '/projects/rackup.webp',
         title: 'Rackup',
         technologies: ['next.js', 'css'],
         text: 'Es una página web de clientes, donde compran insumos del proveedor.',
@@ -16,7 +16,7 @@ export const projects = [
         active: true,
     },
     {
-        image: '/projects/qualitybridgesolutions.png',
+        image: '/projects/qualitybridgesolutions.webp',
         title: 'QualityBridgeSolutions',
         technologies: ['astro.js', 'css'],
         text: 'Landing page de prestación de servicios.',
@@ -24,7 +24,7 @@ export const projects = [
         active: true,
     },
     {
-        image: '/projects/rosiestetica.png',
+        image: '/projects/rosiestetica.webp',
         title: 'Rosiestetica',
         technologies: ['next.js', 'scss', 'node.js', 'express.js', 'mysql'],
         text: 'Es una página web para poder organizar turnos, servicios, personal con su landing page.',
